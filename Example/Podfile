@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+use_frameworks!
+
+target 'YMDropDownMenuNavBar_Example', :exclusive => true do
+  pod "YMDropDownMenuNavBar", :path => "../"
+end
+
+target 'YMDropDownMenuNavBar_Tests', :exclusive => true do
+  pod "YMDropDownMenuNavBar", :path => "../"
+
+  
+end
