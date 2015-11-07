@@ -7,20 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		477078A11BED746B00394E7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 477078A01BED746B00394E7A /* Main.storyboard */; settings = {ASSET_TAGS = (); }; };
+		477078A41BED751500394E7A /* YMDropDownMenuNavBarVCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 477078A31BED751500394E7A /* YMDropDownMenuNavBarVCViewController.m */; settings = {ASSET_TAGS = (); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* YMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* YMAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* YMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* YMViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		87B1784E03A6AE9D0FF25501 /* Pods_YMDropDownMenuNavBar_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AED0B6358830E87CC1461A0C /* Pods_YMDropDownMenuNavBar_Example.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		D98A72581DD23949825C80C9 /* Pods_YMDropDownMenuNavBar_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51C94DC68F4F060C31DE3A98 /* Pods_YMDropDownMenuNavBar_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
@@ -39,6 +39,9 @@
 		2167BBDEBE6AD4A8A01C2497 /* Pods-YMDropDownMenuNavBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMDropDownMenuNavBar_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMDropDownMenuNavBar_Example/Pods-YMDropDownMenuNavBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2F0BB88713E67B3B42CCD06F /* Pods-YMDropDownMenuNavBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMDropDownMenuNavBar_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-YMDropDownMenuNavBar_Example/Pods-YMDropDownMenuNavBar_Example.release.xcconfig"; sourceTree = "<group>"; };
 		4134F167369F827375490455 /* Pods-YMDropDownMenuNavBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMDropDownMenuNavBar_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YMDropDownMenuNavBar_Tests/Pods-YMDropDownMenuNavBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		477078A01BED746B00394E7A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		477078A21BED751500394E7A /* YMDropDownMenuNavBarVCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YMDropDownMenuNavBarVCViewController.h; sourceTree = "<group>"; };
+		477078A31BED751500394E7A /* YMDropDownMenuNavBarVCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YMDropDownMenuNavBarVCViewController.m; sourceTree = "<group>"; };
 		51C94DC68F4F060C31DE3A98 /* Pods_YMDropDownMenuNavBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMDropDownMenuNavBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58A195388D20070C39A /* YMDropDownMenuNavBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = YMDropDownMenuNavBar.app; path = YMDropDownMenuNavBar_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -50,8 +53,6 @@
 		6003F59B195388D20070C39A /* YMDropDownMenuNavBar-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "YMDropDownMenuNavBar-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* YMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* YMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* YMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YMViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* YMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YMViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = YMDropDownMenuNavBar_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -59,7 +60,6 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		938FEF7B8C2317BEFFA586D3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AED0B6358830E87CC1461A0C /* Pods_YMDropDownMenuNavBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMDropDownMenuNavBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B69BB2B4503A5F191E27FA26 /* YMDropDownMenuNavBar.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YMDropDownMenuNavBar.podspec; path = ../YMDropDownMenuNavBar.podspec; sourceTree = "<group>"; };
@@ -141,11 +141,11 @@
 		6003F593195388D20070C39A /* Example for YMDropDownMenuNavBar */ = {
 			isa = PBXGroup;
 			children = (
+				477078A01BED746B00394E7A /* Main.storyboard */,
 				6003F59C195388D20070C39A /* YMAppDelegate.h */,
 				6003F59D195388D20070C39A /* YMAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* YMViewController.h */,
-				6003F5A6195388D20070C39A /* YMViewController.m */,
+				477078A21BED751500394E7A /* YMDropDownMenuNavBarVCViewController.h */,
+				477078A31BED751500394E7A /* YMDropDownMenuNavBarVCViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
@@ -276,7 +276,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				477078A11BED746B00394E7A /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
@@ -390,8 +390,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				477078A41BED751500394E7A /* YMDropDownMenuNavBarVCViewController.m in Sources */,
 				6003F59E195388D20070C39A /* YMAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* YMViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

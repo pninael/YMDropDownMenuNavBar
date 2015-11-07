@@ -1,0 +1,14 @@
+PODS:
+  - YMDropDownMenuNavBar (0.1.0)
+
+DEPENDENCIES:
+  - YMDropDownMenuNavBar (from `../`)
+
+EXTERNAL SOURCES:
+  YMDropDownMenuNavBar:
+    :path: ../
+
+SPEC CHECKSUMS:
+  YMDropDownMenuNavBar: 3b3dd0688908881991d323933188edf583b064ed
+
+COCOAPODS: 0.38.2
