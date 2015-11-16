@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'YMDropDownMenuNavBar'
-s.version          = '0.1.0'
+s.version          = '0.1.2'
 s.summary          = 'YMDropDownMenuNavBar is a blocks based nav bar menu, that enables assigning action balock for each menu item.'
 s.description      = 'YMDropDownMenuNavBar is a blocks based nav bar menu, that enables assigning action balock for each menu item. The initialization is straight forward, just add pairs of menu item titles with their corresponding blocks.'
 s.homepage         = 'https://github.com/pninael/YMDropDownMenuNavBar.git'
