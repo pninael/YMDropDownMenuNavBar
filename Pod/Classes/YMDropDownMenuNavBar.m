@@ -35,10 +35,10 @@
 {
     [super layoutSubviews];
     
-    self.dropDownMenu.frame = (CGRect){
-        .origin = CGPointZero,
-        .size = self.bounds.size
-    };
+    self.dropDownMenu.frame = CGRectMake((self.bounds.size.width * 0.3)/2,
+                                         0,
+                                         self.bounds.size.width * 0.7,
+                                         self.bounds.size.height);
     
     [_dropDownMenu setMenuItemsBackgroudColor:[super barTintColor]];
 }

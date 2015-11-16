@@ -59,7 +59,7 @@
         // Initialize the menu view
         _menuView = [[UIView alloc] init];
         _menuView.alpha = 0;
-
+        
         // Initialize the menu buttons
         _menuButtons = [[NSMutableArray alloc] init];
         int itemIndex = 0;
@@ -150,15 +150,15 @@
 {
     [super layoutSubviews];
     
-    CGFloat toggleButtonWidth = CGRectGetWidth(self.bounds) * 0.6;
-    CGFloat menuItemWidth = CGRectGetWidth(self.bounds);
+    CGFloat toggleButtonWidth = CGRectGetWidth(self.bounds);
+    CGFloat menuItemWidth = CGRectGetWidth([UIApplication sharedApplication].keyWindow.bounds);
     CGFloat menuItemHeight = CGRectGetHeight(self.bounds);
     
     self.toggleButton.frame = CGRectMake((CGRectGetWidth(self.bounds) - toggleButtonWidth) / 2, 0, toggleButtonWidth, menuItemHeight);
     
     // Convert the coordinates of the view into the window coordinate, and layout the menu view accordingly
     CGRect viewInMainWindow = [self convertRect:self.bounds toView:nil];
-    self.menuView.frame = CGRectMake(viewInMainWindow.origin.x,
+    self.menuView.frame = CGRectMake(0,
                                      viewInMainWindow.origin.y + viewInMainWindow.size.height,
                                      menuItemWidth,
                                      [_menuButtons count] * menuItemHeight);
@@ -204,9 +204,9 @@
           initialSpringVelocity:4.0
                         options: UIViewAnimationOptionCurveEaseInOut
                      animations:^
-                     {
-                         _menuView.alpha = 1;
-                     }
+     {
+         _menuView.alpha = 1;
+     }
                      completion:^(BOOL finished){
                      }];
 }
@@ -221,9 +221,9 @@
           initialSpringVelocity:4.0
                         options: UIViewAnimationOptionCurveEaseInOut
                      animations:^
-                     {
-                         _menuView.alpha = 0;
-                     }
+     {
+         _menuView.alpha = 0;
+     }
                      completion:^(BOOL finished){
                      }];
 }
