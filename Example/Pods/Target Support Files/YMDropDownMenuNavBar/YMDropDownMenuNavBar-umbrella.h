@@ -1,6 +1,6 @@
 #import <UIKit/UIKit.h>
 
-#import "UIBlockButton.h"
+#import "UIControl+Blocks.h"
 #import "YMDropDownMenu.h"
 #import "YMDropDownMenuNavBar.h"
 

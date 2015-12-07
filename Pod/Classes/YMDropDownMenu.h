@@ -7,17 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "UIBlockButton.h"
+//#import "UIControl+Blocks.h"
 
 @class YMDropDownMenuItem;
 
 @interface YMDropDownMenu : UIView
 
 @property (nonatomic, strong, readonly) UIButton *toggleButton;
+@property (nonatomic, strong, readonly) UIImageView *toggleImage;
 @property (nonatomic, strong, readonly) UIView *menuView;
 @property (nonatomic, strong, readonly) NSMutableArray *menuButtons;
+@property (nonatomic, strong, readonly) UIView *bottomBorderView;
 @property (nonatomic, assign) NSInteger selectedItemIndex;
-@property (nonatomic, strong) UIColor *titlesColor;
+@property (nonatomic, strong) UIColor *textColor;
+@property (nonatomic, strong) UIFont *toggleButtonFont;
+@property (nonatomic, strong) UIFont *menuButtonsFont;
 @property (nonatomic, strong) UIColor *menuItemsBackgroudColor;
 @property (nonatomic, strong) UIColor *selectedItemBackgroundColor;
 
@@ -41,9 +45,9 @@
 @interface YMDropDownMenuItem : NSObject
 
 @property (nonatomic, strong) NSString* title;
-@property (nonatomic, strong) ActionBlock actionBlock;
+@property (nonatomic, strong) void (^actionBlock)(id sender) ;
 
-+ (instancetype)itemWithTitle:(NSString*)title blockAction:(ActionBlock)actionBlock;
++ (instancetype)itemWithTitle:(NSString*)title actionBlock:(void(^)(id sender))actionBlock;
 
 @end
 

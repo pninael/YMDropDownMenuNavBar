@@ -1,5 +1,5 @@
 PODS:
-  - YMDropDownMenuNavBar (0.1.0)
+  - YMDropDownMenuNavBar (0.1.2)
 
 DEPENDENCIES:
   - YMDropDownMenuNavBar (from `../`)
@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  YMDropDownMenuNavBar: 3b3dd0688908881991d323933188edf583b064ed
+  YMDropDownMenuNavBar: 71d4f67a3ed20dc3eb0af8127571622abb2dfb0b
 
 COCOAPODS: 0.38.2

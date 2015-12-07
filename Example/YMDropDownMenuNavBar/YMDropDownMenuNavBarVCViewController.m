@@ -20,13 +20,13 @@
     
     // initialize the DropDownMenuNavBar with titles and blocks
     YMDropDownMenuNavBar *dropDownMenuNavBar = [[YMDropDownMenuNavBar alloc]initWithMenuItems:
-    [YMDropDownMenuItem itemWithTitle:@"first" blockAction:^
+    [YMDropDownMenuItem itemWithTitle:@"Group Updates" actionBlock:^(id sender)
     {
         NSLog(@"moving back to fisrt");
         
         [self.navigationController popViewControllerAnimated:YES];
     }],
-    [YMDropDownMenuItem itemWithTitle:@"second" blockAction:^
+    [YMDropDownMenuItem itemWithTitle:@"All Priority" actionBlock:^(id sender)
     {
         NSLog(@"moving to seconds");
         
@@ -46,8 +46,13 @@
     //dropDownMenuNavBar.dropDownMenu.selectedItemBackgroundColor = [UIColor yellowColor];
     //dropDownMenuNavBar.dropDownMenu.titlesColor = [UIColor greenColor];
     
+    // configure fonts
+    dropDownMenuNavBar.dropDownMenu.toggleButtonFont = [UIFont fontWithName:@"HelveticaNeue-bold" size:16];
+    dropDownMenuNavBar.dropDownMenu.menuButtonsFont = [UIFont fontWithName:@"HelveticaNeue" size:15];
+    
     // replace the existing NavBar with DropDownMenuNavBar
     [self.navigationController setValue:dropDownMenuNavBar forKeyPath:@"navigationBar"];
+    
 }
 
 @end

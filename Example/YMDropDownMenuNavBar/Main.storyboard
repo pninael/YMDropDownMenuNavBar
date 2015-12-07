@@ -24,7 +24,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="Dtx-Oa-bcc" firstAttribute="centerY" secondItem="wXr-7s-TMg" secondAttribute="centerY" id="KBE-h9-DRw"/>
                             <constraint firstItem="Dtx-Oa-bcc" firstAttribute="centerX" secondItem="wXr-7s-TMg" secondAttribute="centerX" id="dUN-yo-Zgg"/>
@@ -55,7 +55,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="WV0-FR-9xh" firstAttribute="centerX" secondItem="M7Q-KC-cmL" secondAttribute="centerX" id="8dx-95-otB"/>
                             <constraint firstItem="WV0-FR-9xh" firstAttribute="centerY" secondItem="M7Q-KC-cmL" secondAttribute="centerY" id="rZG-nL-nW2"/>

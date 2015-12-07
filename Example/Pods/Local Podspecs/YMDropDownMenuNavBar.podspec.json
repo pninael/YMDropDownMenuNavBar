@@ -1,8 +1,8 @@
 {
   "name": "YMDropDownMenuNavBar",
-  "version": "0.1.0",
+  "version": "0.1.2",
   "summary": "YMDropDownMenuNavBar is a blocks based nav bar menu, that enables assigning action balock for each menu item.",
-  "description": "YMDropDownMenuNavBar is a blocks based nav bar menu, that enables assigning action balock for each menu item.",
+  "description": "YMDropDownMenuNavBar is a blocks based nav bar menu, that enables assigning action balock for each menu item. The initialization is straight forward, just add pairs of menu item titles with their corresponding blocks.",
   "homepage": "https://github.com/pninael/YMDropDownMenuNavBar.git",
   "license": "MIT",
   "authors": {
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/pninael/YMDropDownMenuNavBar.git",
-    "tag": "0.1.0"
+    "tag": "0.1.2"
   },
   "platforms": {
     "ios": "7.0"
@@ -19,7 +19,7 @@
   "source_files": "Pod/Classes/*",
   "resource_bundles": {
     "YMDropDownMenuNavBar": [
-      "Pod/Assets/*.png"
+      "Pod/Assets/*"
     ]
   }
 }

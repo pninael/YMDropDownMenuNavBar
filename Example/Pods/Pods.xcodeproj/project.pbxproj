@@ -7,103 +7,107 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		11A7BBAC442A638979F57C66391D4340 /* YMDropDownMenuNavBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 590F7475DFC5DDAEAEF5CA88664D5BC7 /* YMDropDownMenuNavBar.bundle */; };
+		032E419571FD5FAA6ABC4C2E92789C8D /* YMDropDownMenuNavBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BC3A2973E5F81C7CD8E221F3C875AD37 /* YMDropDownMenuNavBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		11A7BBAC442A638979F57C66391D4340 /* YMDropDownMenuNavBar.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A2ABB29BB957D3EF10BE26D616B4A792 /* YMDropDownMenuNavBar.bundle */; };
+		131ED71A7FC51995C0B7610C555B3C60 /* images in Resources */ = {isa = PBXBuildFile; fileRef = 4CC9B4E057CF333BD8F78D5F86B2FFBF /* images */; };
+		40CFC1C073DBCA3C78095FDBC44C7519 /* YMDropDownMenuNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 97493A5D0EC7A62EE597C2F5A7B13486 /* YMDropDownMenuNavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		451EED1A2750383584A3D52395BAC6CC /* Pods-YMDropDownMenuNavBar_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 029431DDFC5609062E025F480D92159A /* Pods-YMDropDownMenuNavBar_Example-dummy.m */; };
 		48B2C0E4402F58826EDF7F211A5C727A /* Pods-YMDropDownMenuNavBar_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 88D7133127E2BCFDB5318D9AD03766DA /* Pods-YMDropDownMenuNavBar_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4AD2A06C9421BA1EFC66695236BC9B89 /* UIBlockButton.h in Headers */ = {isa = PBXBuildFile; fileRef = A33D0B938FA556FC09EB94725345551E /* UIBlockButton.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4C0CE031EA244FA47E5328D4B9A01364 /* YMDropDownMenuNavBar-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 64730A691F90299B24F3B822AF8B97AA /* YMDropDownMenuNavBar-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5E9E7B9BD18F7FDCA1B057DDDD138EC2 /* YMDropDownMenuNavBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A834C83BB9EF219521E6721DF3D0AD58 /* YMDropDownMenuNavBar-dummy.m */; };
+		59DF09E996E9E66B5C4CFE52618324C5 /* UIControl+Blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = C9BE9CD47183F8DC68FA2E264F8F593F /* UIControl+Blocks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DBEBF7E6321F295A5A8FC74E527FF2E /* YMDropDownMenuNavBar-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0C633AF8B9650A45AFE4FB918C69BA2 /* YMDropDownMenuNavBar-dummy.m */; };
+		60F4E7DF045F893FFD5B337B14AF0CC1 /* YMDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DF2C935B6E5D569129D8EB083349F13 /* YMDropDownMenu.m */; };
 		6FAC60E5CC1A3D43FE65D0E03C338C33 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA0113958ADF31B653292E210073C62 /* Foundation.framework */; };
-		867E91089537161754FAB0554D39C7CD /* YMDropDownMenuNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 5191375B87BC83D7F0391AD4E7791DE5 /* YMDropDownMenuNavBar.m */; };
-		9176F666CAAC9744B85B191E662B826A /* UIBlockButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 24F8673CDDB430DC5E4658F0CD3F74BB /* UIBlockButton.m */; };
-		E3BA68ED0EA8FE045FEE4D20948A87ED /* YMDropDownMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B9B6D3C73788606EBD402D094B753E5 /* YMDropDownMenu.m */; };
+		76872565B1DC17AF3E812D4605F8A231 /* UIControl+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C41083012ABDAB1416247E594742077 /* UIControl+Blocks.m */; };
+		E1D042463EFFF3F00A04523FB88A79BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE83C668C2AA4B19AD8ADA4442A27617 /* Images.xcassets */; };
 		E7B4B82F8C0DEFE3BF6D4F1E9701BB15 /* Pods-YMDropDownMenuNavBar_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4CF708B1AA78E28AC2E426725B465F /* Pods-YMDropDownMenuNavBar_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9DC8C8B6C4BD19EF2270CDA2A3CAF79 /* YMDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 3028D1E2A32267784836CC5B21EC5FF4 /* YMDropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EEE691F6B9281DCA31DC63410ED4962C /* YMDropDownMenuNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 01EEF020897140DB928C903BE49AFC94 /* YMDropDownMenuNavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EE18D202F7C8FB2AFF4118C28563A952 /* YMDropDownMenuNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE78A58EE5EE06D5AE449CF24ECB08B7 /* YMDropDownMenuNavBar.m */; };
 		EFE79882F52973738F1CF7F02D98A538 /* Pods-YMDropDownMenuNavBar_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F4A1911AAF12EED0490D4E4836BB35F3 /* Pods-YMDropDownMenuNavBar_Tests-dummy.m */; };
 		F39F0B961C493E25CEF5052E058D9C0A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA0113958ADF31B653292E210073C62 /* Foundation.framework */; };
 		F5736AFC85824511E10B96E56144BF6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECA0113958ADF31B653292E210073C62 /* Foundation.framework */; };
+		FA566EB47D75A2C925797BFBFB8B7A28 /* YMDropDownMenu.h in Headers */ = {isa = PBXBuildFile; fileRef = 530D19444EC6AD3AE4087C0E3A75CA6F /* YMDropDownMenu.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		11B848994E245EBF5085EBB850557613 /* PBXContainerItemProxy */ = {
+		311E1CB5D0B76A99C165B69061735A48 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = CFD843035EC8629A74BDFEBE2200BCDF;
 			remoteInfo = YMDropDownMenuNavBar;
 		};
-		6A9E8EA5515D6BAEF1D842958ADC6352 /* PBXContainerItemProxy */ = {
+		410CB2B2ABD03661433A221BB886EA0E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 4BCDA2B2F960EBA0A3EA5313EC698027;
+			remoteGlobalIDString = CFD843035EC8629A74BDFEBE2200BCDF;
+			remoteInfo = YMDropDownMenuNavBar;
+		};
+		B2188EA5F238AC73B879CC3D7CB269D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C97CE08676559C4ACFBB2106121AA754;
 			remoteInfo = "YMDropDownMenuNavBar-YMDropDownMenuNavBar";
-		};
-		9C881B54FE1E81E7F02F98577CE4FC03 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = CFD843035EC8629A74BDFEBE2200BCDF;
-			remoteInfo = YMDropDownMenuNavBar;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		009DCE79E532CC0C9F4697D32EB6622D /* YMDropDownMenuNavBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YMDropDownMenuNavBar-prefix.pch"; sourceTree = "<group>"; };
-		01EEF020897140DB928C903BE49AFC94 /* YMDropDownMenuNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YMDropDownMenuNavBar.h; sourceTree = "<group>"; };
 		029431DDFC5609062E025F480D92159A /* Pods-YMDropDownMenuNavBar_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YMDropDownMenuNavBar_Example-dummy.m"; sourceTree = "<group>"; };
 		0B8319C32F0DF5F0F2522A1EEB6C8663 /* Pods-YMDropDownMenuNavBar_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YMDropDownMenuNavBar_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0DF2C935B6E5D569129D8EB083349F13 /* YMDropDownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YMDropDownMenu.m; sourceTree = "<group>"; };
 		1A46DBAB30F4ED99C573C08D33A0D916 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E438E8A3368AD99067AC620EFCDCEE8 /* YMDropDownMenuNavBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YMDropDownMenuNavBar.modulemap; sourceTree = "<group>"; };
 		2436B7EA11EA6BD3EBB5DCCDED965A55 /* Pods_YMDropDownMenuNavBar_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMDropDownMenuNavBar_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		24F8673CDDB430DC5E4658F0CD3F74BB /* UIBlockButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = UIBlockButton.m; sourceTree = "<group>"; };
 		2734831DABE9D055400C92788B818D6C /* Pods-YMDropDownMenuNavBar_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YMDropDownMenuNavBar_Example-resources.sh"; sourceTree = "<group>"; };
 		2976FB12D6FA9361733E5114AA0D09E8 /* Pods-YMDropDownMenuNavBar_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YMDropDownMenuNavBar_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		2F4CF708B1AA78E28AC2E426725B465F /* Pods-YMDropDownMenuNavBar_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YMDropDownMenuNavBar_Example-umbrella.h"; sourceTree = "<group>"; };
-		3028D1E2A32267784836CC5B21EC5FF4 /* YMDropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YMDropDownMenu.h; sourceTree = "<group>"; };
-		38DE19E282E7057CE3A2204B6F45842B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3B9B6D3C73788606EBD402D094B753E5 /* YMDropDownMenu.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YMDropDownMenu.m; sourceTree = "<group>"; };
-		49E3583072C9A0A7DAAE99FC7E054E13 /* YMDropDownMenuNavBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YMDropDownMenuNavBar.xcconfig; sourceTree = "<group>"; };
 		4AA16558575E89573B7DFA253EEE2B6E /* Pods-YMDropDownMenuNavBar_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YMDropDownMenuNavBar_Example.modulemap"; sourceTree = "<group>"; };
+		4C41083012ABDAB1416247E594742077 /* UIControl+Blocks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIControl+Blocks.m"; sourceTree = "<group>"; };
+		4CC9B4E057CF333BD8F78D5F86B2FFBF /* images */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
 		509D9D3FCCFB160ACBDE3E0379C25B8B /* Pods-YMDropDownMenuNavBar_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-YMDropDownMenuNavBar_Tests.modulemap"; sourceTree = "<group>"; };
-		5191375B87BC83D7F0391AD4E7791DE5 /* YMDropDownMenuNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YMDropDownMenuNavBar.m; sourceTree = "<group>"; };
+		530D19444EC6AD3AE4087C0E3A75CA6F /* YMDropDownMenu.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YMDropDownMenu.h; sourceTree = "<group>"; };
 		5468D9700B27261DBE95EEF75FDBC8BF /* Pods-YMDropDownMenuNavBar_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YMDropDownMenuNavBar_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		58301569ECB0014D7A8E724849355570 /* Pods-YMDropDownMenuNavBar_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YMDropDownMenuNavBar_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		590F7475DFC5DDAEAEF5CA88664D5BC7 /* YMDropDownMenuNavBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMDropDownMenuNavBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		64730A691F90299B24F3B822AF8B97AA /* YMDropDownMenuNavBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YMDropDownMenuNavBar-umbrella.h"; sourceTree = "<group>"; };
+		6BE393989C63842863674275A1D23DFF /* YMDropDownMenuNavBar-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "YMDropDownMenuNavBar-Private.xcconfig"; sourceTree = "<group>"; };
+		7093D8EF1A6C32275FBE90AD3A7BE85F /* YMDropDownMenuNavBar.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YMDropDownMenuNavBar.xcconfig; sourceTree = "<group>"; };
 		733C064A34B6853F9C8C8E0D2C56730F /* Pods-YMDropDownMenuNavBar_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YMDropDownMenuNavBar_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		753BAD4AD49826C1B7ABBAA1277E3A19 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7BE7C80100F773520D74B8B7D6B5CAF2 /* Pods-YMDropDownMenuNavBar_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YMDropDownMenuNavBar_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		88D7133127E2BCFDB5318D9AD03766DA /* Pods-YMDropDownMenuNavBar_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YMDropDownMenuNavBar_Tests-umbrella.h"; sourceTree = "<group>"; };
 		8CA14FC8FA9E7159C01C3F99975B89B6 /* Pods-YMDropDownMenuNavBar_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YMDropDownMenuNavBar_Example.release.xcconfig"; sourceTree = "<group>"; };
-		A33D0B938FA556FC09EB94725345551E /* UIBlockButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = UIBlockButton.h; sourceTree = "<group>"; };
-		A834C83BB9EF219521E6721DF3D0AD58 /* YMDropDownMenuNavBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YMDropDownMenuNavBar-dummy.m"; sourceTree = "<group>"; };
+		97493A5D0EC7A62EE597C2F5A7B13486 /* YMDropDownMenuNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = YMDropDownMenuNavBar.h; sourceTree = "<group>"; };
+		A0C633AF8B9650A45AFE4FB918C69BA2 /* YMDropDownMenuNavBar-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YMDropDownMenuNavBar-dummy.m"; sourceTree = "<group>"; };
+		A2ABB29BB957D3EF10BE26D616B4A792 /* YMDropDownMenuNavBar.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YMDropDownMenuNavBar.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D7E69DA24E8CF81E51947402FF3EFE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BC3A2973E5F81C7CD8E221F3C875AD37 /* YMDropDownMenuNavBar-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YMDropDownMenuNavBar-umbrella.h"; sourceTree = "<group>"; };
+		BE83C668C2AA4B19AD8ADA4442A27617 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		C055D0D9DA8CDF81C8386FD00FBE151D /* Pods-YMDropDownMenuNavBar_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YMDropDownMenuNavBar_Tests-resources.sh"; sourceTree = "<group>"; };
 		C1396153CB3D7E3AB988B1C71D6323DA /* YMDropDownMenuNavBar.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YMDropDownMenuNavBar.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C624DA214309A6E0BA7DCB07E5C28970 /* Pods-YMDropDownMenuNavBar_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YMDropDownMenuNavBar_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9BE9CD47183F8DC68FA2E264F8F593F /* UIControl+Blocks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIControl+Blocks.h"; sourceTree = "<group>"; };
+		CE78A58EE5EE06D5AE449CF24ECB08B7 /* YMDropDownMenuNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = YMDropDownMenuNavBar.m; sourceTree = "<group>"; };
+		D0128331C90D962393818B446ED5AA63 /* YMDropDownMenuNavBar-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YMDropDownMenuNavBar-prefix.pch"; sourceTree = "<group>"; };
 		D9D2A652482E1BBA88B2EF5C3A8DE774 /* Pods-YMDropDownMenuNavBar_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YMDropDownMenuNavBar_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DF0FC8849FD4C0777267A044F488F593 /* Pods-YMDropDownMenuNavBar_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YMDropDownMenuNavBar_Example-frameworks.sh"; sourceTree = "<group>"; };
-		EA0109EA1793EFE01B56106878D8BFFD /* YMDropDownMenuNavBar-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "YMDropDownMenuNavBar-Private.xcconfig"; sourceTree = "<group>"; };
-		EA6985DBB72D6ECC8DCFDABD9E763A2C /* YMDropDownMenuNavBar.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YMDropDownMenuNavBar.modulemap; sourceTree = "<group>"; };
 		ECA0113958ADF31B653292E210073C62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		F08DA82337E7ED2791C2FAC164BE32DD /* Pods_YMDropDownMenuNavBar_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMDropDownMenuNavBar_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4A1911AAF12EED0490D4E4836BB35F3 /* Pods-YMDropDownMenuNavBar_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YMDropDownMenuNavBar_Tests-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		03A4AF474780B83D5EFAF65FDC7FA98C /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		18AE660261961CCD5BCC193432BA2CEF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				F5736AFC85824511E10B96E56144BF6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		18F84B0A0781D3F2B27D7C17245B076D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,29 +130,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04264FBF01FFC26673A7398C807A613B /* YMDropDownMenuNavBar */ = {
+		32B7CFB942E98792C82734AF3F34D4FD /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				6E98240C7AD191F03ABF5BF065269DD9 /* Pod */,
-				1B5DA358E8BCDDA9DDD2FE12ED850083 /* Support Files */,
+				C9BE9CD47183F8DC68FA2E264F8F593F /* UIControl+Blocks.h */,
+				4C41083012ABDAB1416247E594742077 /* UIControl+Blocks.m */,
+				530D19444EC6AD3AE4087C0E3A75CA6F /* YMDropDownMenu.h */,
+				0DF2C935B6E5D569129D8EB083349F13 /* YMDropDownMenu.m */,
+				97493A5D0EC7A62EE597C2F5A7B13486 /* YMDropDownMenuNavBar.h */,
+				CE78A58EE5EE06D5AE449CF24ECB08B7 /* YMDropDownMenuNavBar.m */,
 			);
-			name = YMDropDownMenuNavBar;
-			path = ../..;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		1B5DA358E8BCDDA9DDD2FE12ED850083 /* Support Files */ = {
+		4920BEAFCCFCAD572576F8B3DEC24D04 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				38DE19E282E7057CE3A2204B6F45842B /* Info.plist */,
-				EA6985DBB72D6ECC8DCFDABD9E763A2C /* YMDropDownMenuNavBar.modulemap */,
-				49E3583072C9A0A7DAAE99FC7E054E13 /* YMDropDownMenuNavBar.xcconfig */,
-				EA0109EA1793EFE01B56106878D8BFFD /* YMDropDownMenuNavBar-Private.xcconfig */,
-				A834C83BB9EF219521E6721DF3D0AD58 /* YMDropDownMenuNavBar-dummy.m */,
-				009DCE79E532CC0C9F4697D32EB6622D /* YMDropDownMenuNavBar-prefix.pch */,
-				64730A691F90299B24F3B822AF8B97AA /* YMDropDownMenuNavBar-umbrella.h */,
+				8B749644EA9EDC5B88CFC4F1480DC5B0 /* YMDropDownMenuNavBar */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/YMDropDownMenuNavBar";
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		5311A69D91D5B367D51D5EEA78687063 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				32B7CFB942E98792C82734AF3F34D4FD /* Classes */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
@@ -177,19 +185,34 @@
 			path = "Target Support Files/Pods-YMDropDownMenuNavBar_Example";
 			sourceTree = "<group>";
 		};
-		6E98240C7AD191F03ABF5BF065269DD9 /* Pod */ = {
+		60D8D8CD9C31B8AB0A1F33D1B6A2C734 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EEC7AE704A580950E7A2672D367316EF /* Classes */,
+				A9D7E69DA24E8CF81E51947402FF3EFE /* Info.plist */,
+				1E438E8A3368AD99067AC620EFCDCEE8 /* YMDropDownMenuNavBar.modulemap */,
+				7093D8EF1A6C32275FBE90AD3A7BE85F /* YMDropDownMenuNavBar.xcconfig */,
+				6BE393989C63842863674275A1D23DFF /* YMDropDownMenuNavBar-Private.xcconfig */,
+				A0C633AF8B9650A45AFE4FB918C69BA2 /* YMDropDownMenuNavBar-dummy.m */,
+				D0128331C90D962393818B446ED5AA63 /* YMDropDownMenuNavBar-prefix.pch */,
+				BC3A2973E5F81C7CD8E221F3C875AD37 /* YMDropDownMenuNavBar-umbrella.h */,
 			);
-			path = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YMDropDownMenuNavBar";
+			sourceTree = "<group>";
+		};
+		74C21DAF9725F64BCCD3E586DECB1998 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8CAC41C0E5A4260F54F3D562D87F8D23 /* Pod */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				B03E3997A97287AC350AA85DB9B74171 /* Development Pods */,
+				4920BEAFCCFCAD572576F8B3DEC24D04 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				86155F149424E1ED70C8B5FDFB69EA72 /* Targets Support Files */,
@@ -205,12 +228,23 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B03E3997A97287AC350AA85DB9B74171 /* Development Pods */ = {
+		8B749644EA9EDC5B88CFC4F1480DC5B0 /* YMDropDownMenuNavBar */ = {
 			isa = PBXGroup;
 			children = (
-				04264FBF01FFC26673A7398C807A613B /* YMDropDownMenuNavBar */,
+				5311A69D91D5B367D51D5EEA78687063 /* Pod */,
+				74C21DAF9725F64BCCD3E586DECB1998 /* Resources */,
+				60D8D8CD9C31B8AB0A1F33D1B6A2C734 /* Support Files */,
 			);
-			name = "Development Pods";
+			name = YMDropDownMenuNavBar;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		8CAC41C0E5A4260F54F3D562D87F8D23 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				D9AD861E9836AE31A3D8AF951C76A830 /* Assets */,
+			);
+			path = Pod;
 			sourceTree = "<group>";
 		};
 		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
@@ -226,10 +260,19 @@
 			children = (
 				2436B7EA11EA6BD3EBB5DCCDED965A55 /* Pods_YMDropDownMenuNavBar_Example.framework */,
 				F08DA82337E7ED2791C2FAC164BE32DD /* Pods_YMDropDownMenuNavBar_Tests.framework */,
-				590F7475DFC5DDAEAEF5CA88664D5BC7 /* YMDropDownMenuNavBar.bundle */,
+				A2ABB29BB957D3EF10BE26D616B4A792 /* YMDropDownMenuNavBar.bundle */,
 				C1396153CB3D7E3AB988B1C71D6323DA /* YMDropDownMenuNavBar.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D9AD861E9836AE31A3D8AF951C76A830 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				BE83C668C2AA4B19AD8ADA4442A27617 /* Images.xcassets */,
+				4CC9B4E057CF333BD8F78D5F86B2FFBF /* images */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 		E5CD073F8CA9E59A27A9235D29DFE3F3 /* Pods-YMDropDownMenuNavBar_Tests */ = {
@@ -250,30 +293,17 @@
 			path = "Target Support Files/Pods-YMDropDownMenuNavBar_Tests";
 			sourceTree = "<group>";
 		};
-		EEC7AE704A580950E7A2672D367316EF /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				A33D0B938FA556FC09EB94725345551E /* UIBlockButton.h */,
-				24F8673CDDB430DC5E4658F0CD3F74BB /* UIBlockButton.m */,
-				3028D1E2A32267784836CC5B21EC5FF4 /* YMDropDownMenu.h */,
-				3B9B6D3C73788606EBD402D094B753E5 /* YMDropDownMenu.m */,
-				01EEF020897140DB928C903BE49AFC94 /* YMDropDownMenuNavBar.h */,
-				5191375B87BC83D7F0391AD4E7791DE5 /* YMDropDownMenuNavBar.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		0CA704B84985DCC994F3144B13B3A586 /* Headers */ = {
+		3E7779725B061779CD7C8A521EC62B28 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AD2A06C9421BA1EFC66695236BC9B89 /* UIBlockButton.h in Headers */,
-				E9DC8C8B6C4BD19EF2270CDA2A3CAF79 /* YMDropDownMenu.h in Headers */,
-				4C0CE031EA244FA47E5328D4B9A01364 /* YMDropDownMenuNavBar-umbrella.h in Headers */,
-				EEE691F6B9281DCA31DC63410ED4962C /* YMDropDownMenuNavBar.h in Headers */,
+				59DF09E996E9E66B5C4CFE52618324C5 /* UIControl+Blocks.h in Headers */,
+				FA566EB47D75A2C925797BFBFB8B7A28 /* YMDropDownMenu.h in Headers */,
+				032E419571FD5FAA6ABC4C2E92789C8D /* YMDropDownMenuNavBar-umbrella.h in Headers */,
+				40CFC1C073DBCA3C78095FDBC44C7519 /* YMDropDownMenuNavBar.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,29 +337,12 @@
 			buildRules = (
 			);
 			dependencies = (
-				D2F3050D1F9494B0B51139D85B5B5181 /* PBXTargetDependency */,
+				A0D968A2E682633EE76E5ABC71E0ABFB /* PBXTargetDependency */,
 			);
 			name = "Pods-YMDropDownMenuNavBar_Example";
 			productName = "Pods-YMDropDownMenuNavBar_Example";
 			productReference = 2436B7EA11EA6BD3EBB5DCCDED965A55 /* Pods_YMDropDownMenuNavBar_Example.framework */;
 			productType = "com.apple.product-type.framework";
-		};
-		4BCDA2B2F960EBA0A3EA5313EC698027 /* YMDropDownMenuNavBar-YMDropDownMenuNavBar */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = C7110D4059D6384C825BEC9CB7B323FD /* Build configuration list for PBXNativeTarget "YMDropDownMenuNavBar-YMDropDownMenuNavBar" */;
-			buildPhases = (
-				BF5A75B709B00ED568529922EC48196F /* Sources */,
-				03A4AF474780B83D5EFAF65FDC7FA98C /* Frameworks */,
-				3BF9CF19B946CA8A0DFE8671E1492491 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "YMDropDownMenuNavBar-YMDropDownMenuNavBar";
-			productName = "YMDropDownMenuNavBar-YMDropDownMenuNavBar";
-			productReference = 590F7475DFC5DDAEAEF5CA88664D5BC7 /* YMDropDownMenuNavBar.bundle */;
-			productType = "com.apple.product-type.bundle";
 		};
 		BEED05466A63DCB15F772262BA8B2585 /* Pods-YMDropDownMenuNavBar_Tests */ = {
 			isa = PBXNativeTarget;
@@ -342,26 +355,43 @@
 			buildRules = (
 			);
 			dependencies = (
-				7C2F94E94BE9B416C90E53BE519D5B90 /* PBXTargetDependency */,
+				DFBD8C6913DFB37C62C36A799B8963F9 /* PBXTargetDependency */,
 			);
 			name = "Pods-YMDropDownMenuNavBar_Tests";
 			productName = "Pods-YMDropDownMenuNavBar_Tests";
 			productReference = F08DA82337E7ED2791C2FAC164BE32DD /* Pods_YMDropDownMenuNavBar_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		CFD843035EC8629A74BDFEBE2200BCDF /* YMDropDownMenuNavBar */ = {
+		C97CE08676559C4ACFBB2106121AA754 /* YMDropDownMenuNavBar-YMDropDownMenuNavBar */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB814462F9EDADBE22B5143A779220FB /* Build configuration list for PBXNativeTarget "YMDropDownMenuNavBar" */;
+			buildConfigurationList = 12BF08167C060613461A91EBB6B76318 /* Build configuration list for PBXNativeTarget "YMDropDownMenuNavBar-YMDropDownMenuNavBar" */;
 			buildPhases = (
-				D19AEB8043C8F85EB72EAA06F1DCD4F6 /* Sources */,
-				A0F3F68E40C69FEF875E023A0D4BE204 /* Frameworks */,
-				4A2B299DE0B42E54B5EDDB355C50907E /* Resources */,
-				0CA704B84985DCC994F3144B13B3A586 /* Headers */,
+				6AB225F882FDD4F62DA8C10F837D52BA /* Sources */,
+				18F84B0A0781D3F2B27D7C17245B076D /* Frameworks */,
+				B525664452FFBE5A68886CD90C28216C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				59219496379B85A588768E7006750587 /* PBXTargetDependency */,
+			);
+			name = "YMDropDownMenuNavBar-YMDropDownMenuNavBar";
+			productName = "YMDropDownMenuNavBar-YMDropDownMenuNavBar";
+			productReference = A2ABB29BB957D3EF10BE26D616B4A792 /* YMDropDownMenuNavBar.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		CFD843035EC8629A74BDFEBE2200BCDF /* YMDropDownMenuNavBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB814462F9EDADBE22B5143A779220FB /* Build configuration list for PBXNativeTarget "YMDropDownMenuNavBar" */;
+			buildPhases = (
+				2A6A0CBF8615528DECE2021AA98768B9 /* Sources */,
+				A0F3F68E40C69FEF875E023A0D4BE204 /* Frameworks */,
+				4A2B299DE0B42E54B5EDDB355C50907E /* Resources */,
+				3E7779725B061779CD7C8A521EC62B28 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E7E54988C8C98D79CCA6F93F939B223C /* PBXTargetDependency */,
 			);
 			name = YMDropDownMenuNavBar;
 			productName = YMDropDownMenuNavBar;
@@ -392,19 +422,12 @@
 				3AE1E5CF2FD63B08BF8BE62EA709188C /* Pods-YMDropDownMenuNavBar_Example */,
 				BEED05466A63DCB15F772262BA8B2585 /* Pods-YMDropDownMenuNavBar_Tests */,
 				CFD843035EC8629A74BDFEBE2200BCDF /* YMDropDownMenuNavBar */,
-				4BCDA2B2F960EBA0A3EA5313EC698027 /* YMDropDownMenuNavBar-YMDropDownMenuNavBar */,
+				C97CE08676559C4ACFBB2106121AA754 /* YMDropDownMenuNavBar-YMDropDownMenuNavBar */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3BF9CF19B946CA8A0DFE8671E1492491 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4A2B299DE0B42E54B5EDDB355C50907E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -413,32 +436,41 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		B525664452FFBE5A68886CD90C28216C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1D042463EFFF3F00A04523FB88A79BE /* Images.xcassets in Resources */,
+				131ED71A7FC51995C0B7610C555B3C60 /* images in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2A6A0CBF8615528DECE2021AA98768B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76872565B1DC17AF3E812D4605F8A231 /* UIControl+Blocks.m in Sources */,
+				60F4E7DF045F893FFD5B337B14AF0CC1 /* YMDropDownMenu.m in Sources */,
+				5DBEBF7E6321F295A5A8FC74E527FF2E /* YMDropDownMenuNavBar-dummy.m in Sources */,
+				EE18D202F7C8FB2AFF4118C28563A952 /* YMDropDownMenuNavBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6AB225F882FDD4F62DA8C10F837D52BA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		912FC762A33E4782FC621AD4A4DDCC84 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				451EED1A2750383584A3D52395BAC6CC /* Pods-YMDropDownMenuNavBar_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BF5A75B709B00ED568529922EC48196F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		D19AEB8043C8F85EB72EAA06F1DCD4F6 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9176F666CAAC9744B85B191E662B826A /* UIBlockButton.m in Sources */,
-				E3BA68ED0EA8FE045FEE4D20948A87ED /* YMDropDownMenu.m in Sources */,
-				5E9E7B9BD18F7FDCA1B057DDDD138EC2 /* YMDropDownMenuNavBar-dummy.m in Sources */,
-				867E91089537161754FAB0554D39C7CD /* YMDropDownMenuNavBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -453,23 +485,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		59219496379B85A588768E7006750587 /* PBXTargetDependency */ = {
+		A0D968A2E682633EE76E5ABC71E0ABFB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YMDropDownMenuNavBar;
+			target = CFD843035EC8629A74BDFEBE2200BCDF /* YMDropDownMenuNavBar */;
+			targetProxy = 410CB2B2ABD03661433A221BB886EA0E /* PBXContainerItemProxy */;
+		};
+		DFBD8C6913DFB37C62C36A799B8963F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YMDropDownMenuNavBar;
+			target = CFD843035EC8629A74BDFEBE2200BCDF /* YMDropDownMenuNavBar */;
+			targetProxy = 311E1CB5D0B76A99C165B69061735A48 /* PBXContainerItemProxy */;
+		};
+		E7E54988C8C98D79CCA6F93F939B223C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "YMDropDownMenuNavBar-YMDropDownMenuNavBar";
-			target = 4BCDA2B2F960EBA0A3EA5313EC698027 /* YMDropDownMenuNavBar-YMDropDownMenuNavBar */;
-			targetProxy = 6A9E8EA5515D6BAEF1D842958ADC6352 /* PBXContainerItemProxy */;
-		};
-		7C2F94E94BE9B416C90E53BE519D5B90 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YMDropDownMenuNavBar;
-			target = CFD843035EC8629A74BDFEBE2200BCDF /* YMDropDownMenuNavBar */;
-			targetProxy = 11B848994E245EBF5085EBB850557613 /* PBXContainerItemProxy */;
-		};
-		D2F3050D1F9494B0B51139D85B5B5181 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = YMDropDownMenuNavBar;
-			target = CFD843035EC8629A74BDFEBE2200BCDF /* YMDropDownMenuNavBar */;
-			targetProxy = 9C881B54FE1E81E7F02F98577CE4FC03 /* PBXContainerItemProxy */;
+			target = C97CE08676559C4ACFBB2106121AA754 /* YMDropDownMenuNavBar-YMDropDownMenuNavBar */;
+			targetProxy = B2188EA5F238AC73B879CC3D7CB269D2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -547,14 +579,14 @@
 			};
 			name = Debug;
 		};
-		3FE8D587DEE9948879DCFA02FC984211 /* Release */ = {
+		4461F8A5F0E874727A945AA684A2458C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA0109EA1793EFE01B56106878D8BFFD /* YMDropDownMenuNavBar-Private.xcconfig */;
+			baseConfigurationReference = 6BE393989C63842863674275A1D23DFF /* YMDropDownMenuNavBar-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
+				CURRENT_PROJECT_VERSION = 0.1.2;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.2;
 				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -564,7 +596,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/YMDropDownMenuNavBar/YMDropDownMenuNavBar.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = YMDropDownMenuNavBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -572,7 +604,7 @@
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		58A60E708996EC10441FF27A4344B7BA /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -595,6 +627,33 @@
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_NAME = Pods_YMDropDownMenuNavBar_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6DA35FA1966FA6B0DAD5F5E335ADEFE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE393989C63842863674275A1D23DFF /* YMDropDownMenuNavBar-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YMDropDownMenuNavBar/YMDropDownMenuNavBar-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YMDropDownMenuNavBar/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YMDropDownMenuNavBar/YMDropDownMenuNavBar.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = YMDropDownMenuNavBar;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -661,9 +720,21 @@
 			};
 			name = Debug;
 		};
-		94B820B17B6862F9E070D5F7DA1D67BA /* Release */ = {
+		8FD296194AC6F82E1B93E2FA4F8308D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA0109EA1793EFE01B56106878D8BFFD /* YMDropDownMenuNavBar-Private.xcconfig */;
+			baseConfigurationReference = 6BE393989C63842863674275A1D23DFF /* YMDropDownMenuNavBar-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = YMDropDownMenuNavBar;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		9ED0254FB43A7D87F28B32289D25612E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BE393989C63842863674275A1D23DFF /* YMDropDownMenuNavBar-Private.xcconfig */;
 			buildSettings = {
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				PRODUCT_NAME = YMDropDownMenuNavBar;
@@ -672,45 +743,6 @@
 				WRAPPER_EXTENSION = bundle;
 			};
 			name = Release;
-		};
-		ADCF225571EFB62C4A08DED314C07B02 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA0109EA1793EFE01B56106878D8BFFD /* YMDropDownMenuNavBar-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = YMDropDownMenuNavBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		C33F748E2D357982F2CD0C525D19CFCC /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA0109EA1793EFE01B56106878D8BFFD /* YMDropDownMenuNavBar-Private.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.1.0;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.1.0;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/YMDropDownMenuNavBar/YMDropDownMenuNavBar-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/YMDropDownMenuNavBar/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/YMDropDownMenuNavBar/YMDropDownMenuNavBar.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = YMDropDownMenuNavBar;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		D6C97FFB9C2110B69E8D5BEFC959810C /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -744,6 +776,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		12BF08167C060613461A91EBB6B76318 /* Build configuration list for PBXNativeTarget "YMDropDownMenuNavBar-YMDropDownMenuNavBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FD296194AC6F82E1B93E2FA4F8308D4 /* Debug */,
+				9ED0254FB43A7D87F28B32289D25612E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		236E4913B0EEA32A5A2916796E93AF14 /* Build configuration list for PBXNativeTarget "Pods-YMDropDownMenuNavBar_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -771,20 +812,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C7110D4059D6384C825BEC9CB7B323FD /* Build configuration list for PBXNativeTarget "YMDropDownMenuNavBar-YMDropDownMenuNavBar" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ADCF225571EFB62C4A08DED314C07B02 /* Debug */,
-				94B820B17B6862F9E070D5F7DA1D67BA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		EB814462F9EDADBE22B5143A779220FB /* Build configuration list for PBXNativeTarget "YMDropDownMenuNavBar" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C33F748E2D357982F2CD0C525D19CFCC /* Debug */,
-				3FE8D587DEE9948879DCFA02FC984211 /* Release */,
+				4461F8A5F0E874727A945AA684A2458C /* Debug */,
+				6DA35FA1966FA6B0DAD5F5E335ADEFE0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
